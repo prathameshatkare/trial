@@ -44,11 +44,9 @@ if st.button('Diabetes Prediction Test'):
   
   if(diabetes_prediction[0]==1):
     diabetes_diagnosis = 'The patient has diabetes'
-  elif :
-    diabetes_diagnosis = 'The patient does not have diabetes'
   else :
-    diabetes_diagnosis = 'its a invalid choice'
-  
+    diabetes_diagnosis = 'The patient does not have diabetes'
+ 
 
 st.success(diabetes_diagnosis)
 
